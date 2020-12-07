@@ -1,0 +1,12 @@
+export const types = {
+
+    IS_ADD_VISIBLE_SET: "IS_ADD_VISIBLE_SET",
+    
+    USERS_ADD: "USERS_ADD",
+    USERS_LOAD: "USERS_LOAD",
+    
+    SELECTED_USER_SET: "SELECTED_USER_SET",
+
+    SEARCH_WORD_SET: "SEARCH_WORD_SET"
+  };
+  

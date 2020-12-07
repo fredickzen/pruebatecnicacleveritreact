@@ -1,0 +1,32 @@
+$cardHeigth: 300px;
+
+.card-user-names {
+    height: $cardHeigth + 55px;
+    .users-list{
+        height: $cardHeigth;
+        overflow-y: scroll;
+    }
+
+    button,
+    span {
+        text-align: left;
+        font-weight: 630;
+    }
+}
+
+.search-form{
+    display: flex;
+    .search-form-item{
+        flex-grow: 4;
+        margin-right: 10px;
+    }
+    button{
+        flex-grow: 1;
+    }
+}
+
+.modal--footer-add-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
